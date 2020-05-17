@@ -1,0 +1,40 @@
+* {
+    font-family: Raleway, sans-serif;
+}
+.main{
+    margin: 0 25% 0 25%;
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 244, 244);
+}
+
+.flexbox-item{
+    width: 300px;
+    margin: 0px;
+    border: 0px solid #333;
+}
+
+.flexbox-item-1{
+    min-height: 150;
+    width: 20%;
+    padding-left: 30px;
+}
+
+.flexbox-item-2{
+    min-height: 150px;
+    width: 80%;
+    padding-right: 50px;
+
+}
+.second-container{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.svg-icon{
+    width: 150px;
+    height: 150px;
+}
