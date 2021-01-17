@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/projects.css">
+  <script src="https://kit.fontawesome.com/a83140d9f6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="projects-title">Projects</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-12">
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">All</button></li>
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">Houses</button></li>
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">Villas</button></li>
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">Additions</button></li>
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">Reconstructions</button></li>
+          <li class="list-group-item"><button type="button" class="btn btn-outline-dark">Buildings</button></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="container project-gallery">
+    <div class="d-flex flex-row flex-wrap justify-content-center">
+      <div class="d-flex flex-column">
+        <img src="assets/images/project1.png" class="img-fluid project-img">
+      </div>
+      <div class="d-flex flex-column">
+        <img src="assets/images/project2.png" class="img-fluid project-img">
+        <img src="assets/images/project3.png" class="img-fluid project-img">
+      </div>
+      <div class="d-flex flex-column">
+        <img src="assets/images/project4.png" class="img-fluid project-img">
+        <img src="assets/images/project5.png" class="img-fluid project-img">
+      </div>
+    </div>
+  </div>
+
+  <!-- Details about project* this part should be shown when clicked on image*
+*using class whole-details try to manipulate this container with js -->
+  <div class="whole-details">
+
+
+    <div class="container project-details-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="project-details-title">PROJECT DETAILS</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img class="img-fluid city-park-img" src="assets/images/project3.png" alt="">
+          </div>
+          <div class="col-md-6 city-park">
+            <h3>City park hotel</h3>
+            <p class="city-park-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia dignissimos impedit id labore.
+              Ad obcaecati, labore. Magni repellendus suscipit placeat quaerat, ipsam voluptate dignissimos illo, ipsa,
+              tempore ex qui quisquam!<br> 1. <br> 2. <br> 3. <br> 4.</p>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="container project-details-gallery">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="details-gallery-title">Gallery</h2>
+        </div>
+      </div>
+      <div class="d-flex flex-row flex-wrap justify-content-center">
+
+        <div class="d-flex flex-column">
+          <img src="assets/images/project2.png" class="img-fluid project-img">
+          <img src="assets/images/project3.png" class="img-fluid project-img">
+        </div>
+        <div class="d-flex flex-column">
+          <img src="assets/images/project1.png" class="img-fluid project-img">
+        </div>
+        <div class="d-flex flex-column">
+          <img src="assets/images/project4.png" class="img-fluid project-img">
+          <img src="assets/images/project5.png" class="img-fluid project-img">
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+
+</body>

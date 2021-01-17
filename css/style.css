@@ -1,0 +1,591 @@
+* {
+    font-family: Raleway, sans-serif;
+}
+
+.calculator-navbar {
+    background-color: white;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+  .calculator-navbar {
+   width: fit-content;
+  }
+
+}
+.calculator-text-navbar > a {
+    color: black!important;
+}
+@media screen and (max-width: 992px) {
+.navbar .navbar-nav {
+  padding-top: 20px;
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+}
+.language-select-navbar {
+  width: max-content;
+  position: relative;
+  margin-top: 10px;
+  
+  text-align: center;
+  display: inline-flex;
+}
+
+@media screen and (min-width: 992px) {
+.language-select-navbar {
+  display: none;
+}
+}
+
+.main{
+    padding: 100px 20% 100px 20%;
+    background-color: #333232;
+  
+      
+}
+
+.main > h2 {
+  color: #F9F9F9;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .main{
+  color: #333232;
+  padding: 50px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+.main > h2 {
+  color: #333232;
+  
+}
+
+.main::after{
+  
+  content: "";
+  width: 200%;
+  height: 0;
+  padding-top: 200%;
+  border-radius: 100%;
+  background: #333232;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  transform: translateX(-20%);
+  z-index: -1;
+
+}
+.extra-effect {
+  box-shadow: -5px -5px 18px #333232;
+  
+}
+}
+
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(245, 244, 244);
+    
+    
+}
+
+.flexbox-item{
+    width: 300px;
+    margin: 0px;
+    border: 0px solid #333;
+    
+}
+
+
+
+.flexbox-item-1{
+    min-height: 150;
+    width: 20%;
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .flexbox-item-1{
+    padding-left: 0px;
+  }
+}
+
+.flexbox-item-2{
+    min-height: 150px;
+    width: 80%;
+    padding-right: 50px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .flexbox-item-2 {
+    margin-left: 80px;
+  }
+}
+
+.second-container{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.svg-icon{
+    width: 150px;
+    height: 150px;
+}
+
+.navbar-brand-pressing {
+    position: relative;
+    margin-left: 5%;
+}
+
+.bg-dark-2 {
+    background-color: #333232;
+}
+
+.menu-color {
+    color: white !important;
+}
+
+/* Beginning of Left NAVBAR */
+
+    
+.vertical-nav {
+    min-width: 5rem;
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+    z-index: 1;
+  }
+  
+
+  .actual-menu-box {
+    color: white;
+    position: relative;
+    margin-top: 8rem;
+    margin-left: -0.5rem;
+    transform: rotate(-90deg);
+
+  }
+
+  .social {
+    padding-left: 5px;
+  }
+
+  .social-icons-leftbar {
+    text-align: center;
+    position: relative;
+    top: 15rem;
+  }
+  
+
+  .language-box {
+    color: white;
+     transform: rotate(-90deg);
+    position: fixed;
+    bottom: 3rem;
+   
+   
+  }
+
+  @media screen and (max-width: 900px) {
+      #sidebar {display: none};
+  }
+
+  
+  /* END of LEFT NABAR */
+
+
+  /* Welcome Section */
+
+  .welcome {
+      padding: 5% 15%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .welcome {
+    width: 100%;
+    padding: 20px;
+    text-align: center; 
+}
+  }
+  /* What We DO Section */
+
+.what-we-do {
+    color: #F9F9F9;
+    background-color: #333232;
+}
+.photo-grid-what-we-do {
+    color: white;
+    width: 100%;
+    text-align: left;
+    padding: 5% 15%;
+    align-items: center;
+    background-color: #333232;
+    z-index: -1;
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+  .main{
+  color: #333232;
+  padding: 50px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+}
+
+.main > h2 {
+  color: #333232;
+  
+}
+
+.main::after{
+  
+  content: "";
+  width: 200%;
+  height: 0;
+  padding-top: 200%;
+  border-radius: 100%;
+  background: #333232;
+  position: absolute;
+  top: 10px;
+  left: 40%;
+  transform: translateX(-20%);
+  z-index: -1;
+
+}
+.extra-effect {
+  box-shadow: -5px -5px 18px #333232;
+  
+}
+} */
+
+@media screen and (max-width: 600px) {
+  .photo-grid-what-we-do {
+      width: 100%;
+      padding: 20px;
+      text-align: center; 
+      color: #333232;
+  padding: 50px 10px;
+  background-color: rgba(255, 255, 255, 0);
+  background-size: cover;
+  -webkit-background-size: cover;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+      
+  }
+
+
+  .photo-grid-what-we-do > h2 {
+    color: #333232;
+    
+  }
+  
+  .photo-grid-what-we-do::after{
+    
+    content: "";
+    width: 200%;
+    height: 0;
+    padding-top: 300%;
+    border-radius: 50%;
+    background: #333232;
+    position: absolute;
+    top: 300px;
+    left: -10%;
+    transform: translateX(-15%);
+    z-index: -10;
+  
+  }
+  .extra-effect {
+    box-shadow: -5px -5px 18px #333232;
+    
+  }
+  .transparency-what-we-do {
+    opacity: 1;
+  }
+  
+
+
+
+
+    .services-heder {
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    .services-desc {
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    .about-header {
+      padding: 20px 20px;
+      text-align: left;
+    }
+
+    .about-desc {
+      padding-left: 20px;
+      text-align: left;
+    }
+  }
+
+
+
+
+
+
+
+  /* Center website */
+.projects {
+    width: 100%;
+    padding: 5% 15%;
+  }
+
+  @media screen and (max-width: 600px) {
+    .projects {
+    padding: 5% 2%;
+    width: 100%;
+    align-items: center;
+  }
+  }
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 10px -16px;
+    
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  @media screen and (min-width: 600px) {
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 33.33%;
+    display: none; /* Hide all elements by default */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 100%;
+    display: none; /* Hide all elements by default */
+  }
+}
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 2px 16px;
+    background-color: white;
+    cursor: pointer;
+    border: solid 1px grey;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #ddd;
+  }
+  
+  /* .btn.active {
+    background-color: #666;
+    color: white;
+  } */
+  
+  .myBtnContainer {
+    padding-left: 20px;
+  }
+
+  @media screen and (max-width: 600px) {
+  div.myBtnContainer {
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    padding-left: 20px;
+  }
+  div.myBtnContainer > button {
+    border: solid 1px grey;
+    border-radius: 5px;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    padding: 5px 10px;
+    text-decoration: none;
+  }
+  
+  div.myBtnContainer > button:hover {
+    background-color: #777;
+  }
+  .header-projects {
+    padding: 20px;
+  }
+}
+
+.header-projects {
+  padding: 20px;
+}
+
+ .carousel-inner {
+     z-index: -2;
+     height: 100vh;
+     margin-bottom: 2%;
+ }
+
+ @media screen and (max-width: 600px) {
+  .carousel-inner {
+    height: auto;
+  }
+}
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+  @media screen and (min-width: 600px) {
+  .footer-extra {
+    padding: 20px 20%;
+  }
+  }
+  a {
+    color: #333232;
+  }
+
+  .footer-logo {
+    padding: 20px 0px;
+  }
+
+
+
+  .modal-calculator {
+    /* This way it could be display flex or grid or whatever also. */
+    display: block;
+    
+    /* Probably need media queries here */
+    width: 80%;
+    max-width: 100%;
+    
+    overflow: auto;
+
+    height: 90%;
+    max-height: 100%;
+    
+    position: fixed;
+    
+    z-index: 100;
+    
+    left: 10%;
+    top: 5%;
+    
+    /* Use this for centering if unknown width/height */
+    transform: translate(-50%, -50%);
+    
+    /* If known, negative margins are probably better (less chance of blurry text). */
+    /* margin: -200px 0 0 -200px; */
+    
+    background-color: #646465;
+    box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+
+    border-radius: 10px;
+  }
+
+  .calculator-extra {
+    background-color: #646465;
+    color: white;
+    text-align: center;
+  }
+
+
+  #en {
+    display: none;
+  }
+  
+  .button_lang {
+    background-color: #444;
+    color: #FFF;
+    padding: 5px 15px;
+    border-radius: 5px;
+    
+    
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+  }
+  .button_lang:hover, .current_lang {
+    background-color: #777;	
+    -webkit-transition: background-color .3s ease-in-out;
+    -moz-transition: background-color .3s ease-in-out;
+    -o-transition: background-color .3s ease-in-out;
+    -ms-transition: background-color .3s ease-in-out;
+    transition: background-color .3s ease-in-out;
+  }
+  ul li {
+    width: 25%;
+    display: inline
+  }
+
+  @media screen and (max-width: 600px) {
+  .footer-second-part {
+    padding-top: 20px;
+    background-color: #333232;
+    color: white;
+    border-radius: 5px;
+  }
+  .footer-second-part-links {
+    color: white!important;
+  }
+}
+  

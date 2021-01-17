@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.projects-title {
+  font-family: 'Raleway', sans-serif;
+  color: #333;
+}
+
+/* making horizontal list*/
+/*ul = list-group- horizontal*/
+.list-group-horizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+/*li= list-group-item*/
+.list-group-item {
+  border: 0;
+  padding: 1%;
+}
+
+.list-group-horizontal, .list-group-item {
+  float: left;
+  position: relative;
+}
+
+.list-group-horizontal, .list-group-item:last-child {
+  margin-right: 0;
+}
+
+.project-gallery {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.project-img {
+  padding: 2%;
+}
+
+/****************************** css for project description section***********************/
+.project-details-title, .details-gallery-title {
+  text-align: center;
+  padding: 2%;
+}
+
+.city-park-img {
+  float: right;
+  padding-top: 2%;
+}
+
+.city-park {
+  padding: 5%;
+}
+
+.city-park-text {
+  text-align: justify;
+  padding-top: 2%;
+}
+
+.details-gallery-title, .project-details-title {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.project-details-gallery {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.project-details-container, .project-details-gallery {
+  background-color: #333;
+  color: white;
+}
