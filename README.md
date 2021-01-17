@@ -24,13 +24,3 @@ PressING is a Architecture Buro website built with intent to make easier for the
 * Bootstrap
 ### Tools
 * Visual Studio Code
-
-## Demo 🚩
-
-### Desktop View
-
-![Desktop view](Desktop.gif)
-
-### Mobile View
-
-![Mobile view](Mobile.gif)
